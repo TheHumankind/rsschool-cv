@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width,initial-scale=1">
+            <link rel="stylesheet" href="css/style.min.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+            <title>Document</title>
+        </head>
+        <body>
+            <main class="wrapper">
+                <aside class="additionall">
+                    <div class="additional__contact">
+                        <div class="additionall__photo">
+                            <img src="img/aside/aside__photo.jpg" alt="my face">
+                        </div>
+                        <h2 class="subheader">Contacts:</h2>
+                        <hr>
+                        <nav>
+                            <ul class="additionall__social">
+                                <li>
+                                    <div class="additionall__icon">
+                                        <img src="img//aside/icons/mail.svg" alt="mail icon">
+                                    </div>
+                                    <a href="mailto:LongSno@gmail.com">LongSno@gmail.com</a>
+                                </li>
+                                <li>
+                                    <div class="additionall__icon">
+                                        <img src="img//aside/icons/smartphone.svg" alt="smartphone icon">
+                                    </div>
+                                    <a href="tel:+375445427103">+375-44-542-71-03</a>
+                                </li>
+                                <li>
+                                    <div class="additionall__icon">
+                                        <img src="img//aside/icons/telegram.svg" alt="telegram icon">
+                                    </div>
+                                    <a href="https://t.me/LightSpeeDistraction">@lightSpeeDistraction</a>
+                                </li>
+                                <li>
+                                    <div class="additionall__icon">
+                                        <img src="img//aside/icons/github.svg" alt="github icon">
+                                    </div>
+                                    <a href="https://github.com/TheHumankind">Git-Hub</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="additionall__education">
+                            <h2 class="subheader">Education:</h2>
+                            <hr>
+                            BSPU named after M. Tank Faculty of Physics and Informatics<br><br>
+                            WM Reply Web Dev Lab<br><br>
+                            RS School JS / Front-End Course (In Progress)
+                        </div>
+                        <div class="additionall__education">
+                            <h2 class="subheader">English:</h2>
+                            <hr>A2 (Based on the results of online tests)
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <a  href="https://rs.school/js/" class="footer_link">
+                            <img src="./img/aside/icons/rs_school_js.svg" alt="RS Shool icon">
+                        </a>
+                        <a href="https://github.com/TheHumankind" class="footer_link" >
+                            <img src="./img/aside/icons/github.svg" alt="Git Hub icon">
+                        </a>
+                        <span>
+                             02.01.2022
+                        </span>
+                    </footer>
+                </aside>
+                <article class="info">
+                    <header class="info__header">
+                        <div class="info__logo">
+                            <img src="img/header/Header__Logo.png" alt="">
+                        </div>
+                        <h1 class="info__name">Gurin Vladislav</h1>
+                        <hr>
+                        <div class="info__special">Junior Front-End Developer</div>
+                    </header>
+                    <section class="info__skill">
+                        <h2 class="subheader">Skills:</h2>
+                        <hr>
+                        <ul class="info__list">
+                            <li class="info__point">HTML</li>
+                            <li class="info__point">CSS</li>
+                            <li class="info__point">JS (Basic knowlage)</li>
+                            <li class="info__point">Bootstrap</li>
+                            <li class="info__point">Sass, Scss preprocessors</li>
+                            <li class="info__point">Git and Git-Hub</li>
+                            <li class="info__point">Gulp</li>
+                        </ul>
+                    </section>
+                    <section class="info__work">
+                        <h2 class="subheader">My works:</h2>
+                        <hr>
+                        <div>
+                            At the moment I have no commercial development experience.<br>
+                            But I have a couple of works on Git Hub, for example:<br><br>
+                            <a href="https://thehumankind.github.io">https://thehumankind.github.io</a><br><br>
+                            Other works are open source on Git-Hub and have .com at the end of the name<br>
+                            You can find it here:<br><br>
+                            <a href="https://github.com/TheHumankind?tab=repositories">https://github.com/TheHumankind?tab=repositories</a>
+                        </div>
+                    </section>
+                    <section class="info__work">
+                        <h2 class="subheader">Code:</h2>
+                        <hr>
+                            <code>
+                                var Cat = (function () { <br>
+                                    &emsp;const cat = [] <br>
+                                    &emsp;const constructor = function (name, weight) { <br>
+                                        &emsp;if (!name || !weight) { <br>
+                                            &emsp;&emsp;&emsp;throw Error('invalid parameters') <br>
+                                        &emsp;} <br>
+                                        &emsp;Object.defineProperty(this, 'name', { <br>
+                                            &emsp;&emsp;get: () => name <br>
+                                        &emsp;}) <br>
+                                        &emsp;Object.defineProperty(this, 'weight', { <br>
+                                            &emsp;&emsp;get: () => weight, set: value => weight = value <br>
+                                        &emsp;}) <br>
+                                        &emsp;&emsp;cat.push(this) <br>
+                                    &emsp;} <br>
+                                    &emsp;constructor.averageWeight = () => { <br>
+                                        &emsp;&emsp;return cat.reduce((a, c) => (a + c.weight), 0) / cat.length <br>
+                                    &emsp;} <br>
+                                    &emsp;&emsp;return constructor <br>
+                                    &emsp;}()) 
+                            </code>
+                    </section>
+                </article>
+            </main>
+        </body>
+    </html>
